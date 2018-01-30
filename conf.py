@@ -135,20 +135,20 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about/", "About Data visualisation hub"), 
-	    ("/blog/", "Blog"), 
-	    ("/community/", "Community"), 
-	    (
-		    ("/resources/", "Links"), 
-		    ( 
-		    	( 
+	("/blog/", "Blog"), 
+	("/community/", "Community"), 
+	(
+		("/resources/", "Links"), 
+		( 
+			( 
 			    	("/resources/tutorial/dash/", "Using Dash"), 
 				    ("/resources/tutorial/orda/link/", "ORDA showcase"), 
 				    ("/resources/tutorial/orda/cite/", "Citing data"), 
-			    ), 
-			    "Tutorials",
-		    ), 
-		    "Resources", 
-	    ),
+			), 
+			"Tutorials",
+		), 
+		"Resources", 
+	),
         # ("/archive.html", "Archive"),
         # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
